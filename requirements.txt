@@ -1,0 +1,6 @@
+langchain == 0.0.227
+streamlit == 1.29.0
+openai    == 0.28.0
+bs4       == 0.0.2
+yfinance  == 0.2.40
+duckduckgo-search  == 5.1.0
