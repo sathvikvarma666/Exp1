@@ -11,6 +11,8 @@ import yfinance as yf
 import openai
 import warnings
 import os
+os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
+
 warnings.filterwarnings("ignore")
 
 
