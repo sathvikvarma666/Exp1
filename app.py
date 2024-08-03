@@ -1,6 +1,5 @@
 import streamlit as st
-import tools
-from tools.fetch_stock_info import Anazlyze_stock
+from fetch_stock_info import Anazlyze_stock
 
 st.title("Stock Analysis bot")
 st.write("This bot scraps and gathers real time stock realted information and analyzes it using LLM")
