@@ -3,7 +3,7 @@ import time
 from bs4 import BeautifulSoup
 import re
 import requests
-
+import streamlit as st
 from langchain.llms import OpenAI
 from langchain.agents import load_tools, AgentType, Tool, initialize_agent
 import yfinance as yf
